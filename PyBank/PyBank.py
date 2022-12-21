@@ -50,4 +50,4 @@ with open(report_path, "w") as report_file:
     report_file.write(f"Greatest increase in Profits: ${max_change:,} ({max_change_month})\n")
     print(f"Greatest decrease in Profits: ${min_change:,} ({min_change_month})\n")
     report_file.write(f"Greatest decrease in Profits: ${min_change:,} ({min_change_month})\n")
-    
+
